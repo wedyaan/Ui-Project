@@ -1,0 +1,75 @@
+.headingText {
+  color: #bf9270;
+  text-align: center;
+  font-size: 43px;
+}
+.deliverP {
+  font-weight: 700;
+  font-size: 25px;
+  color: #bf9270;
+  text-align: center;
+}
+
+.payDiv1 {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  gap: 46px;
+}
+.payDiv1 .btn1,
+.payDiv1 .btn2 {
+  background: #6a8185;
+  border: none;
+  padding: 10px 15px;
+  font-size: 30px;
+  color: #fcfaf7;
+  margin: 0px 0 9px 0px;
+}
+.payDiv1 .address {
+  background-color: #ccc;
+  background-color: #e9dcd4;
+  border: none;
+  padding: 10px 68px;
+  font-size: 20px;
+  text-align: center;
+}
+::placeholder {
+  color: #bf9270;
+  color: #a4885e;
+}
+
+.payDiv2 {
+  font-size: 25px;
+  margin: 0 20px;
+  color: #bf9270;
+}
+.payDiv2 i {
+  font-size: 30px;
+  color: #2c2c2c;
+  margin: 0 20px;
+}
+.payDiv2 .fa-circle {
+  font-size: 18px;
+  margin: 0;
+}
+.payDiv2 .cardDeat {
+  text-align: center;
+  width: 64rem;
+}
+.payDiv2 .cardDeat .cardNum {
+  padding: 10px 7rem;
+  border: none;
+  background-color: #e9dcd4;
+  text-align: center;
+}
+.payDiv2 .cardDeat2 {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.payDiv2 .cardDeat2 input {
+  padding: 10px 7rem;
+  border: none;
+  background-color: #e9dcd4;
+  text-align: center;
+}

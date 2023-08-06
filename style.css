@@ -1,0 +1,162 @@
+body {
+  background-color: #f5f1ee;
+}
+/* start nav style */
+.navbr {
+  display: flex;
+  justify-content: space-between;
+  background-color: #edcdbb;
+  font-size: 25px;
+  color: #bf9270;
+}
+.navbr .logoDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-right: 6px;
+}
+.navbr .ulList,
+.navbr .iconuL {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+.navbr .ulList .liItem {
+  margin-right: 23px;
+}
+.navbr .ulList .liItem a,
+.navbr .AddBook a {
+  text-decoration: none;
+  color: #bf9270;
+}
+.navbr .ulList .liItem a:hover {
+  text-decoration: none;
+  color: #e3b7a0;
+}
+.navbr .iconuL .liItemicon {
+  margin-right: 23px;
+}
+.navbr .iconuL .liItemicon a {
+  color: #bf9270;
+}
+
+.navbr .AddBook {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 6px;
+}
+.navbr .AddBook a {
+  background: #6a8185;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 47px;
+  color: #fcfaf7;
+}
+.navbr .AddBook a:hover {
+  background: #fcfaf7;
+  color: #6a8185;
+}
+
+/* end nav style */
+
+/* start Vision section style  */
+.visionSectionHeading {
+  text-align: center;
+  color: #bf9270;
+  font-size: 49px;
+  font-weight: 700;
+}
+
+.visionSection {
+  display: flex;
+  justify-content: space-between;
+}
+.visionSection .visionHeading {
+  padding: 0 5px 0 0;
+  font-size: 38px;
+  color: #e3b7a0;
+  font-weight: 600;
+  line-height: 24px;
+}
+.visionSection .visionParagraph {
+  color: #bf9270;
+  font-size: 2.8rem;
+  margin: 0 19px;
+}
+.visionSection .visionImage .visionImageItem {
+  width: 24rem;
+}
+.visionSectiontwo {
+  margin-top: 48px;
+  text-align: center;
+  color: #bf9270;
+  font-size: 33px;
+}
+
+.visionSectiontwo .visionCrad {
+  display: flex;
+  justify-content: center;
+  gap: 51px;
+}
+.visionSectiontwo .visionCrad .visionCradone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #bf9270;
+  border-radius: 32px;
+}
+
+.visionSectiontwo .visionCrad .visionCradone .visionImage {
+  max-width: 16rem;
+  border-radius: 11%;
+  object-fit: cover;
+}
+.visionSectiontwo .visionCrad .visionCradone .ordertime {
+  text-align: center;
+  color: #bf9270;
+  font-size: 22px;
+  margin: 10px;
+}
+.visionSectiontwo .visionCrad .visionCradone .orderBook {
+  background: #6a8185;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 47px;
+  color: #fcfaf7;
+  margin: 0px 0 9px 0px;
+}
+.visionSectiontwo .visionCrad .visionCradone .orderBook:hover {
+  color: #6a8185;
+  background-color: #fcfaf7;
+}
+
+/* end Vision section styly  */
+
+/* starty footer style */
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #edcdbb;
+  font-size: 25px;
+  color: #bf9270;
+  margin-top: 20px;
+}
+.footer .logoDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-right: 6px;
+}
+.footer .fotterulList {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  gap: 9px;
+  padding-left: 10px;
+  color: #6a8185;
+}

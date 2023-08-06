@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ui Project</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="payment.css">
+</head>
+
+<body dir="rtl">
+
+
+<!-- start navbar section  -->
+<nav class="navbr">
+  <div class="logoDiv">
+    <img class="logo" src="./logo.png" alt="logo">
+  </div>
+  <div class="navList">
+    <ul class="ulList">
+      <li class="liItem"><a href="/index.htm">الصفحة الرئيسية</a> </li>
+      <li class="liItem"><a href="/BooksSections.html">أقسام الكتب</a></li>
+      <li class="liItem"><a href="#social">تواصل معنا</a></li>
+    </ul>
+  </div>
+  <div class="icons">
+    <ul class="iconuL">
+      <li class="liItemicon"><a href="/profile.html"><i class="fas fa-user-alt"></i></a></li>
+      <li class="liItemicon"><a href="/orderDeatials.html"><i class="fas fa-shopping-cart"></i></a></li>
+    </ul>
+  </div>
+  <div class="AddBook">
+    <a href="addBook.html">إضافة كتاب</a>
+  </div>
+</nav>
+
+<!-- end navbar -->
+
+  <!-- payment section start -->
+  <h1 class="headingText">الدفع</h1>
+  <p class="deliverP">اختر طريقة الشحن</p>
+  <div class="payDiv1">
+    <button class="btn1">الاستلام من الشخص</button>
+    <button class="btn2"> توصيل الى المنزل </button>
+  </div>
+
+
+  <p class="deliverP"> اضف عنوان الشحن</p>
+  <div class="payDiv1">
+    <input class="address" type="text" placeholder="ادخل العنوان المختصر">
+  </div>
+
+  <p class="deliverP"> اختر طريقة الدفع</p>
+  <div class="payDiv2">
+    <div>
+      <i class="fas fa-circle"></i>
+      <i class="far fa-credit-card"></i>بطاقة الائتمان/الخصم المباشر
+    </div>
+    <div class="cardDeat">
+      <p>رقم البطاقة</p>
+      <input class="cardNum" type="number" name="" id="" placeholder="رقم البطاقة">
+    </div>
+
+    <div class=" cardDeat2">
+      <div>
+        <p>تاريخ انتهاء البطاقة </p>
+        <input type="number" name="" id="" placeholder="MM/YY">
+      </div>
+
+      <div>
+        <p> الرقم السري</p>
+        <input type="number" name="" id="" placeholder="CVV">
+      </div>
+    </div>
+
+
+    <div class="cardDeat">
+      <p> الاسم على البطاقة</p>
+      <input class="cardNum" type="number" name="" id="" placeholder="الاسم على البطاقة">
+    </div>
+
+    <div>
+      <i class="fas fa-circle"></i>
+      <i class="fas fa-dollar-sign"></i>الدفع نقدا عند الاستلام
+    </div>
+
+    <div>
+      <i class="fas fa-circle"></i>
+      <i class="fab fa-cc-apple-pay"></i> Apple Pay
+    </div>
+  </div>
+  <!-- paymnt section end -->
+
+
+  <!-- start footer -->
+  <footer class="footer">
+    <div class="logoDiv">
+      <img class="logo" src="./logo.png" alt="logo">
+    </div>
+
+    <div class="copyright">
+      <p class="copyrightP">جميع الحقوق محفوظة لدى موقع كتابي &copy; 2023</p>
+    </div>
+    <div class="footerList">
+      <ul class="fotterulList">
+        <li class="lifooterliItemItem"><i class="fab fa-facebook"></i> </li>
+        <li class="footerliItem"> <i class="fab fa-whatsapp"></i></li>
+        <li class="footerliItem"><i class="fab fa-twitter"></i> </li>
+        <li class="footerliItem"> <i class="fas fa-envelope"></i></li>
+      </ul>
+    </div>
+
+  </footer>
+  <!-- end footer -->
+
+</body>
+
+</html>

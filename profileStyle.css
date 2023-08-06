@@ -1,0 +1,87 @@
+.visionSectionHeading.bookHeading {
+  text-align: center;
+}
+
+.addBook-Section {
+  display: flex;
+  justify-content: center;
+  gap: 17rem;
+  margin-bottom: 50px;
+}
+.profileSection {
+  display: flex;
+  justify-content: space-around;
+  height: 52vh;
+}
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  gap: 30px;
+}
+.password_grid {
+  grid-column: 3/4;
+}
+.book2_grid {
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+.book3_grid {
+  grid-row: 3/4;
+}
+.book4_grid {
+  grid-column: 3/4;
+  grid-row: 3/4;
+}
+
+.profileSection .visionText {
+  width: 23vw;
+}
+.profileSection .visionText .formsection {
+  display: flex;
+  flex-direction: column;
+  width: 27vw;
+  align-items: center;
+  padding: 9px;
+  height: 13vh;
+}
+::placeholder {
+  color: #bf9270;
+  opacity: 90%;
+}
+.profileSection .visionText .formsection .input {
+  margin: 1.2rem;
+  width: 20vw;
+  /* height: 5vh; */
+  background: #e9dcd4;
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  text-align: center;
+  padding: 13px;
+  /* height: 13vh; */
+  font-size: 29px;
+}
+.profileSection .visionText .formsection .orderBook {
+  background: #6a8185;
+  border: none;
+  padding: 6px 41px;
+  border-radius: 11px;
+  color: #fcfaf7;
+  font-size: 24px;
+}
+
+.formsectionDiv label {
+  color: #bf9270;
+}
+.formsectionDiv input {
+  background-color: #ebe0d7;
+  padding: 5px;
+  border: none;
+}
+
+.imageleft {
+  position: absolute;
+  left: 41px;
+  bottom: 97px;
+}

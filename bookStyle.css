@@ -1,0 +1,46 @@
+.searchDiv {
+  background: #ffeddb;
+  opacity: 50%;
+  padding: 10px;
+  text-align: center;
+  width: fit-content;
+  color: #bf9270;
+}
+
+.booksSection .bookCrad {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.booksSection .bookCrad .bookCradone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 19px;
+  border: 1px solid #bf9270;
+  border-radius: 32px;
+  background: #e9dcd4;
+  width: 18vw;
+  height: 37vh;
+  margin: 15px 15px;
+}
+.booksSection .bookCrad .bookCradone .bookImage {
+  font-size: 4.4rem;
+  margin-top: 23px;
+}
+.booksSection .bookCrad .bookCradone .ordertime {
+  font-size: 28px;
+  color: #c19776;
+}
+.booksSection .bookCrad .bookCradone .orderBook {
+  background: #6a8185;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 47px;
+  color: #fcfaf7;
+}
+.booksSection .bookCrad .bookCradone .orderBook:hover {
+  background-color: #fcfaf7;
+  color: #6a8185;
+}

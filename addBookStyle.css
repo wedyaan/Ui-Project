@@ -1,0 +1,49 @@
+.visionSectionHeading.bookHeading {
+  text-align: center;
+}
+.addBook-Section {
+  display: flex;
+  justify-content: center;
+  gap: 17rem;
+  margin-bottom: 20px;
+}
+.addBookSection {
+  display: flex;
+  justify-content: space-around;
+}
+.addBookSection .visionText {
+  width: 23vw;
+}
+.addBookSection .visionText .formsection {
+  display: flex;
+  flex-direction: column;
+  width: 27vw;
+  align-items: center;
+  padding: 9px;
+  height: 13vh;
+}
+::placeholder {
+  color: #bf9270;
+  opacity: 90%;
+}
+.addBookSection .visionText .formsection .input {
+  margin: 1.2rem;
+  width: 20vw;
+  height: 5vh;
+  background: #e9dcd4;
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  text-align: center;
+  padding: 13px;
+  height: 13vh;
+  font-size: 29px;
+}
+.addBookSection .visionText .formsection .orderBook {
+  background: #6a8185;
+  border: none;
+  padding: 6px 41px;
+  border-radius: 11px;
+  color: #fcfaf7;
+  font-size: 24px;
+}

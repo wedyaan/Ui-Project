@@ -1,0 +1,61 @@
+.addBookSection .visionText {
+  width: 36vw;
+}
+.addBookSection .visionText .formsectionParent .formsection {
+  display: flex;
+  flex-direction: column;
+  width: 27vw;
+  align-items: baseline;
+  padding: 9px;
+  height: 13vh;
+}
+.addBookSection .visionSection.formsectionP {
+  height: 30rem;
+}
+
+.addBookSection .visionSection .visionText .formsectionParent {
+  height: 22rem;
+  align-items: baseline;
+  padding: 8px 20px 79px 22px;
+  margin: 16px 0;
+  border: 1px solid #bf9270;
+}
+.addBookSection .reg-Section {
+  display: flex;
+  justify-content: space-around;
+  gap: 12rem;
+  margin-bottom: 41px;
+}
+.addBookSection .visionText {
+  width: 41vw;
+}
+
+.addBookSection .visionSection .visionText .formsectionParent .formsectionDiv {
+  padding: 17px 0;
+  font-size: 25px;
+  color: #bf9270;
+}
+
+.addBookSection
+  .visionSection
+  .visionText
+  .formsectionParent
+  .formsectionDiv
+  input {
+  padding: 16px 5px;
+  border: none;
+  background: #e9dcd4;
+}
+.regUseAccount {
+  margin: 10px 10px;
+  display: flex;
+  justify-content: center;
+}
+.regUseAccount button {
+  background: #cebcae;
+  border: none;
+  padding: 10px 13px;
+  border-radius: 47px;
+  color: #332209;
+  margin: 7px 11px;
+}

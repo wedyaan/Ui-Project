@@ -18,6 +18,7 @@
   align-items: baseline;
   padding: 8px 20px 79px 22px;
   margin: 16px 0;
+  border-radius: 10px;
   border: 1px solid #bf9270;
 }
 .addBookSection .reg-Section {
